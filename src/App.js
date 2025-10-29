@@ -19,6 +19,9 @@ import santa from './assets/app/santa.png';
 import donttouch from './assets/app/donttouch.png';
 import casttotv from './assets/app/casttotv.png';
 import fly from './assets/app/fly.png';
+import tele from './assets/app/tele.png';
+import ar from './assets/app/ar.png';
+import callpos from './assets/app/callpos.png';
 
 
 import PolicyPage from './PolicyPage';
@@ -51,17 +54,17 @@ function Header() {
 function HomePage() {
   const apps = [
     { name: 'Bus Jam: Traffic Puzzle', image: bus, link: 'https://apps.apple.com/us/app/bus-jam-traffic-puzzle/id6737179486' },
-    { name: 'Dual Tele & Chat', image: phonecase, link: 'https://apps.apple.com/us/app/dual-tele-chat/id6575367066' },
+    { name: 'Dual Tele & Chat', image: tele, link: 'https://apps.apple.com/us/app/dual-tele-chat/id6575367066' },
     { name: 'Nuts & Bolts - 3D Wood Puzzle', image: nut, link: 'https://apps.apple.com/us/app/nuts-bolts-3d-wood-puzzle/id6590610383' },
     { name: 'Alarm Clock - Wake up alarm', image: alarm, link: 'https://apps.apple.com/us/app/alarm-clock-wake-up-alarm/id6504606302' },
     { name: 'Flight Tracker - Air Traffic', image: fly, link: 'https://apps.apple.com/us/app/flight-tracker-air-traffic/id6482293615' },
     { name: "Don't touch phone: Alarm", image: donttouch, link: 'https://apps.apple.com/us/app/dont-touch-phone-alarm/id6503603869' },
     { name: 'SmartRemote: TV Remote Control', image: casttotv, link: 'https://apps.apple.com/us/app/smartremote-tv-remote-control/id6503116040' },
-    { name: 'AR Drawing: Sketch - Paint', image: phonecase, link: 'https://apps.apple.com/us/app/ar-drawing-sketch-paint/id6478841427' },
+    { name: 'AR Drawing: Sketch - Paint', image: ar, link: 'https://apps.apple.com/us/app/ar-drawing-sketch-paint/id6478841427' },
     { name: 'Find Phone by Clap', image: clap, link: 'https://apps.apple.com/us/app/find-phone-by-clap/id6476602525' },
     { name: 'Fast PDF Reader & Converter', image: pdf, link: 'https://apps.apple.com/us/app/fast-pdf-reader-converter/id6477148802' },
     { name: 'GPS Camera with Time Stamp', image: gpscamera, link: 'https://apps.apple.com/us/app/gps-camera-with-time-stamp/id6473265344' },
-    { name: 'Call Posters - Call Theme', image: phonecase, link: 'https://apps.apple.com/us/app/call-posters-call-theme/id6474707981' },
+    { name: 'Call Posters - Call Theme', image: callpos, link: 'https://apps.apple.com/us/app/call-posters-call-theme/id6474707981' },
     { name: 'Santa Claus Call Video', image: santa, link: 'https://apps.apple.com/us/app/santa-claus-call-video/id6472134581' },
     { name: 'GPS Tracker Family', image: gpstracker, link: 'https://apps.apple.com/us/app/gps-tracker-family/id6458394353' },
     { name: 'Blood Pressure: Health App', image: blood, link: 'https://apps.apple.com/us/app/blood-pressure-health-app/id6450873087' }
