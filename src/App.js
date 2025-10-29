@@ -18,6 +18,7 @@ import blood from './assets/app/blood.png';
 import santa from './assets/app/santa.png';
 import donttouch from './assets/app/donttouch.png';
 import casttotv from './assets/app/casttotv.png';
+import fly from './assets/app/fly.png';
 
 
 import PolicyPage from './PolicyPage';
@@ -31,8 +32,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Nguyen Truong Studio" className="logo-img" />
-                <span className="studio-name">Nguyen Truong Studio</span>
+                <img src={logoImg} alt="NGUYEN TRUONG STUDIO" className="logo-img" />
+                <span className="studio-name">NGUYEN TRUONG STUDIO</span>
               </div>
             </div>
             {!isPolicyPage && (
@@ -53,7 +54,7 @@ function HomePage() {
     { name: 'Dual Tele & Chat', image: phonecase, link: 'https://apps.apple.com/us/app/dual-tele-chat/id6575367066' },
     { name: 'Nuts & Bolts - 3D Wood Puzzle', image: nut, link: 'https://apps.apple.com/us/app/nuts-bolts-3d-wood-puzzle/id6590610383' },
     { name: 'Alarm Clock - Wake up alarm', image: alarm, link: 'https://apps.apple.com/us/app/alarm-clock-wake-up-alarm/id6504606302' },
-    { name: 'Flight Tracker - Air Traffic', image: phonecase, link: 'https://apps.apple.com/us/app/flight-tracker-air-traffic/id6482293615' },
+    { name: 'Flight Tracker - Air Traffic', image: fly, link: 'https://apps.apple.com/us/app/flight-tracker-air-traffic/id6482293615' },
     { name: "Don't touch phone: Alarm", image: donttouch, link: 'https://apps.apple.com/us/app/dont-touch-phone-alarm/id6503603869' },
     { name: 'SmartRemote: TV Remote Control', image: casttotv, link: 'https://apps.apple.com/us/app/smartremote-tv-remote-control/id6503116040' },
     { name: 'AR Drawing: Sketch - Paint', image: phonecase, link: 'https://apps.apple.com/us/app/ar-drawing-sketch-paint/id6478841427' },
@@ -71,8 +72,8 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Nguyen Truong Studio – Welcome Aboard</h2>
-            <p className="about-text">Nguyen Truong Studio is a creative mobile game studio dedicated to building fun, engaging, and accessible experiences for everyone. We blend imagination and simplicity to create games that are easy to play — yet irresistibly addictive. Our mission is to spark joy in everyday life through intuitive gameplay, charming art, and satisfying progression. Every game we craft is designed with players at heart — delivering smooth performance, delightful interactions, and a lasting sense of fun that keeps you coming back for more.</p>
+            <h2 className="highlight-title">NGUYEN TRUONG STUDIO – Welcome Aboard</h2>
+            <p className="about-text">NGUYEN TRUONG STUDIO is a creative mobile game studio dedicated to building fun, engaging, and accessible experiences for everyone. We blend imagination and simplicity to create games that are easy to play — yet irresistibly addictive. Our mission is to spark joy in everyday life through intuitive gameplay, charming art, and satisfying progression. Every game we craft is designed with players at heart — delivering smooth performance, delightful interactions, and a lasting sense of fun that keeps you coming back for more.</p>
           </div>
           <div className="about-img-container">
             <img src={imgMkj} alt="About MKJ Studio" className="about-img" />
@@ -169,7 +170,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Nguyen Truong Studio. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} NGUYEN TRUONG STUDIO. All rights reserved.</p>
           </div>
         </footer>
       </div>
