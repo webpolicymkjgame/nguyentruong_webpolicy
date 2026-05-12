@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c94be425.css",
+    "main.js": "/static/js/main.94602dcd.js",
+    "static/js/453.5cb6b5f3.chunk.js": "/static/js/453.5cb6b5f3.chunk.js",
+    "static/media/santa.png": "/static/media/santa.76e51d1c2ef252ded81d.png",
+    "static/media/banner.png": "/static/media/banner.9b1581a3f474dae700d7.png",
+    "static/media/logo.png": "/static/media/logo.4da20e847defbd68fb8d.png",
+    "static/media/gpscamera.png": "/static/media/gpscamera.3da5dd21f4b42eaed44a.png",
+    "static/media/donttouch.png": "/static/media/donttouch.babf841c2160b3559e5f.png",
+    "static/media/clap.png": "/static/media/clap.af28f2c2806d4c7deb94.png",
+    "static/media/blood.png": "/static/media/blood.b389a8d71f952dc2ce0d.png",
+    "static/media/callpos.png": "/static/media/callpos.9a13057bcb84b3b4befd.png",
+    "static/media/fly.png": "/static/media/fly.b0d588d5ca751023a7ae.png",
+    "static/media/casttotv.png": "/static/media/casttotv.0338a602336469876372.png",
+    "static/media/ar.png": "/static/media/ar.b1599c08f4e4ada789c8.png",
+    "static/media/alarm.png": "/static/media/alarm.75f15a1b1dd45d3bc7c1.png",
+    "static/media/nut.png": "/static/media/nut.ea87cdb27f8f3984e570.png",
+    "static/media/tele.png": "/static/media/tele.6805759b953690d75c1f.png",
+    "static/media/bus.png": "/static/media/bus.5199a318c61e1fc38450.png",
+    "static/media/gpstracker.png": "/static/media/gpstracker.b3ce1832dbee9eceb699.png",
+    "static/media/pdf.png": "/static/media/pdf.7a9a28852e41d03e3fd3.png",
+    "static/media/google-play.png": "/static/media/google-play.602ce2563ea4250bab53.png",
+    "index.html": "/index.html",
+    "main.c94be425.css.map": "/static/css/main.c94be425.css.map",
+    "main.94602dcd.js.map": "/static/js/main.94602dcd.js.map",
+    "453.5cb6b5f3.chunk.js.map": "/static/js/453.5cb6b5f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c94be425.css",
+    "static/js/main.94602dcd.js"
+  ]
+}
