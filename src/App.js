@@ -5,8 +5,6 @@ import './App.css';
 import logoImg from './assets/logo.png';
 import imgMkj from './assets/banner.png';
 import googlePlayIcon from './assets/google-play.png';
-import phonecase from './assets/app/phonecase.png';
-import merge from './assets/app/merge.png';
 import bus from './assets/app/bus.png';
 import nut from './assets/app/nut.png';
 import alarm from './assets/app/alarm.png';
